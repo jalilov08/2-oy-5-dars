@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7FAFC;
+}
+.container .cards{
+  width: 80%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards .card-1{
+    width: 350px;
+    height: 534px;
+    display: inline-block;
+    margin: 10px;
+    background-color:white;
+
+}
+.cards .card-1 h2{
+    color: var(--800, #2D3748);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 28px;
+    margin-left: 24px;
+}
+.cards .card-1 h2 img{
+    margin-left:180px;
+}
+.cards .card-1 h2 .rasm{
+    margin-left: 110px;
+}
+.cards .card-1 h2 .rasm1{
+    margin-left: 160px;
+}
+.cards .card-1 .text{
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.cards .card-1 .text1{
+    color: var(--700, #4A5568);
+ 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 302px;
+    margin-bottom: 44px;
+    margin-left: 24px;
+}
+.cards .card-1 .text-img{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 34px;
+    line-height: normal;
+}
+.cards .card-1 .text-img img{
+    margin-right: 15px;
+}
+.cards .card-1 .button{
+    width: 350px;
+    height: 70px;
+    flex-shrink: 0;
+    background: var(--200, #EDF2F7);
+    color: var(--800, #2D3748);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cards .card-1 .color{
+    background: #EA0774;
+    color:white;
+}
